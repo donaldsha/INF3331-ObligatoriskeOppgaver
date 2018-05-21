@@ -1,0 +1,3 @@
+Når vi kjøre linear funksjon for f(x)=6x mellom a=0 og b=50 og N=100 kjøretiden er:  0.000658568681760413 og det er ikke stor foskjell mellom den og numpy, siden fra numpy får vi:  0.0006032599742340436. 
+
+Når vi øker N til 1000, får vi fra linear kjøretid på: 0.0005420253337584202 og på numpy kjøringen får vi 0.00047130920056399103 og vi ser igjen at forskjellen er ikke så stor, bare 0.0003s. Men når vi øker N kraftig, la oss si til 100000 da ser vi forskjellen: linear: 0.026950352928813346 og numpy: 0.0011148655188529637, nesten 100-200 ganger mindre. Plus når vi har større funksjon la oss si 10x eller mer så ser vi at Numpy er mye raskere og kraftigere.

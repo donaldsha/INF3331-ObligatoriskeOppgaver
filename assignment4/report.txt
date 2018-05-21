@@ -1,0 +1,9 @@
+Disse er resultatene jeg får når jeg kjører testene:
+første:  0.499978411889
+andre:  0.499997811621
+tredje:  0.499999911399
+fjerde:  0.500000016667
+femte:  0.499999998697
+sjette:  0.499999998666
+
+den som er nærmest er er fjerde og etter det femte

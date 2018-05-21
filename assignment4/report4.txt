@@ -1,0 +1,6 @@
+Når vi sjekker resultatet jeg har minsket 1E-20 til --> abs(computed_answer1 - expected_answer1) < 1E-5): slik at N blir mindre og for konstatnt midpoint trenger vi da N= 1000 og computed_answer = 2.0000008224672676
+
+Jeg har misnket 1E-20 til --> abs(computed_answer1 - expected_answer1) < 1E-5): for alle og for numpy midpoint trenger vi da N = 1000 igjen men vi får en bedre resultat 
+computed_answer = 2.00000082247
+
+og for numba midpoint trenger vi det samme N = 1000 og vi får computed_answer = 2.0000822490709864
