@@ -28,7 +28,7 @@ class test_polynomials(unittest.TestCase):
 	def degree_exists(self):
 		#verifying degree exist
 		method = 'degree'#get a little hint from stack overflow
-		self.asertTrue(hasattr(Polynomial, 'method') and callable(getattr(Polynomial, 'method')))
+		self.assertTrue(hasattr(Polynomial, 'method') and callable(getattr(Polynomial, 'method')))
 		#(if('method' in dir(Polynomial) and inspect.isfunction(Polynomial.method)))
 		#check if it returns the degree of my poly
 		self.assertEqual(self.p.degree(), 2)
